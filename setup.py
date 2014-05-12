@@ -17,7 +17,9 @@ setup(
     author='Django-iframetoolbox from bitbucket initially.',
     author_email='klas79@gmail.com',
     url='http://example.com',
-    packages = ['iframetoolbox','iframetoolbox.templates.iframe', 'iframetoolbox.templates'],
+    packages=find_packages(),
+    include_package_data=True,
+    #zip_safe=False,
       long_description="""\
       The rain in spain stays mainly in a plain
       """,
@@ -32,6 +34,6 @@ setup(
       license='GPL',
       install_requires=[
         'setuptools',
-	'django>=1.5'
+	'django >= 1.5'
       ],
       )
