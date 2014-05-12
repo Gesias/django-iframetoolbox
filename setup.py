@@ -17,7 +17,7 @@ setup(
     author='Django-iframetoolbox from bitbucket initially.',
     author_email='klas79@gmail.com',
     url='http://example.com',
-    packages=['*'],
+    packages = ['iframetoolbox','iframetoolbox.templates.iframe', 'iframetoolbox.templates'],
       long_description="""\
       The rain in spain stays mainly in a plain
       """,
